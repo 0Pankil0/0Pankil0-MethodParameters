@@ -31,7 +31,10 @@ class Main {
     input2.close();
     input3.close();
     input4.close();
-  }
+
+  //Ending program...
+  System.out.println("This is the end of programm...");
+}
   //Calling method number 1...
   public static double areaOfRectangle(double n2, double n3){
     double result = n2  * n3;
@@ -46,5 +49,6 @@ class Main {
     return 0.0;
     //When printline is here then type 0.0 after restern 
     //otherwise it will not perfprm see rectangle method
+
   }
 }
